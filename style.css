@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: #212529;
+}
+
+.nav-but {
+  color: #b3d7ff;
+}
+body {
+  background-color: #212529;
+}
+
+.hii {
+  text-shadow: 2px 2px 2px #b3d7ff;
+  margin-top: 50px;
+  font-family: "Monotype Corsiva";
+  font-size: 200px;
+}
+.name {
+  font-size: 50px;
+  word-spacing: 5px;
+}
+#me {
+  margin: 60px;
+  padding: 10px;
+  width: 410px;
+  height: 210px;
+  color: aliceblue;
+  /* border: 2px solid red; */
+  text-shadow: 2px 2px 2px #4683c8;
+  font-family: "Monotype Corsiva";
+  /* float: left; */
+  /* width: 100%; */
+  /* display: inline-block; */
+}
+.child {
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+#image {
+  margin-left: 10px;
+}
+
+/* -----------------------------home + navbar-------------- */
+
+.heading {
+  color: white;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  font-family: Bradley Hand, cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 8px 3px 8px #a370f7;
+}
+
+.intro {
+  /* border: 2px solid blue; */
+  width: 45%;
+  display: inline-block;
+  color: thistle;
+}
+
+#aboutMEImg {
+  margin-top: 130px;
+  margin-left: 190px;
+  padding: 100px;
+  /* height: 100px;
+  width: 100px; */
+}
+
+#about-box {
+  width: 500px;
+  height: 389px;
+  border: 5px solid #a370f7;
+  border-radius: 10%;
+  box-shadow: 5px 10px 30px #a370f7;
+  padding: 50px;
+  margin: 130px 0px 0px 140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+}
+
+/* ---------------------About------------------------------- */
+
+#Edu-img {
+  margin: 240px 20px 240px 240px;
+  width: 19%;
+  float: left;
+}
+
+#edu-box {
+  width: 555px;
+  height: 389px;
+  border: 5px solid #a370f7;
+  border-radius: 10%;
+  box-shadow: 5px 10px 30px #a370f7;
+  padding: 50px;
+  margin: 130px 0px 166px 290px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+}
+
+.edu-year {
+  margin-left: 10px;
+  width: 60%;
+  float: left;
+}
+
+.edu-city {
+  width: 45%;
+  margin-left: 200px;
+}
+/* ----------------------------------Education------------------- */
+
+.project-box {
+  width: 500px;
+  height: 389px;
+  border: 5px solid #a370f7;
+  border-radius: 10%;
+  box-shadow: 5px 10px 30px #a370f7;
+  padding: 50px;
+  margin: 130px 0px 100px 140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  float: left;
+}
+
+#project-img {
+  width: 18%;
+  margin: 226px 0px 198px 357px;
+}
+
+/* -------------------------------------------Project------------------------------ */
+
+.cer-img {
+  margin: 177px 173px 208px 205px;
+  width: 25%;
+  float: left;
+}
+
+#cer-box {
+  margin: 107px 0px 140px 885px;
+  float: none;
+}
+
+/* -------------------------------Certificate-------------------------------- */
+
+#ach-img {
+  margin-left: 311px;
+}
+#ach-box {
+  margin-bottom: 115px;
+  width: 513px;
+}
+
+/* ---------------------------------Achievement---------------------------------- */
+
+#skill-img {
+  float: left;
+  margin-top: 220px;
+  margin-bottom: 200px;
+}
+#skill-box {
+  margin-bottom: 152px;
+}
+
+#skill-box button {
+  margin: 17px;
+}
+#skills {
+  margin-top: 600px;
+}
+
+/* --------------------------------------Skills---------------------- */
+
+#lang-img {
+  margin-left: 240px;
+}
+
+#lang-box button {
+  margin: 17px;
+}
+
+#lang {
+  margin-top: 600px;
+}
+
+/* --------------------------------------lang---------------------- */
+#hobby-img {
+  margin-bottom: 192px;
+}
+#hobby {
+  margin-top: 600px;
+}
+/* --------------------------------------hobby---------------------- */
+
+#contact-img {
+  margin-left: 290px;
+  margin-top: 262px;
+}
+
+#contact-box {
+  margin-top: 190px;
+  float: left;
+}
+
+#contact-box button {
+  width: 357px;
+  margin-bottom: 20px;
+  font-size: small;
+  text-align: right;
+}
+
+#contact-box img {
+  float: left;
+}
+
+#contact-id {
+  margin-top: 600px;
+}
+/* --------------------------------------contact---------------------- */
+
+#backToHome {
+  /* width: 200px; */
+  text-align: center;
+  margin: 50px;
+}
