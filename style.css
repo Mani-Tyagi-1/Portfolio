@@ -12,6 +12,11 @@
   background-color: #212529;
 }
 
+#navbar {
+  position: fixed;
+  width: 100%;
+}
+
 .nav-but {
   color: #b3d7ff;
 }
