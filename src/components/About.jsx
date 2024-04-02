@@ -45,7 +45,9 @@ function About() {
               <br />
               <br />
               <a href="./src/assets/Mani_Tyagi_Resume.pdf" download>
-                <button className="btn-primary">Download CV</button>
+                <button className="btn-primary hover:bg-blue-800 hover:text-[17px]">
+                  Download CV
+                </button>
               </a>
             </div>
           </div>

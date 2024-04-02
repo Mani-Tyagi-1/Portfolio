@@ -4,7 +4,7 @@ import project1 from "../assets/images/guessTheNum.png";
 import project2 from "../assets/images/AgeCalc.png";
 import project3 from "../assets/images/todo.png";
 import project4 from "../assets/images/weather.png";
-import project5 from "../assets/images/project-5.png";
+import project5 from "../assets/images/imaginify.png";
 import project_person from "../assets/images/Project.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -38,8 +38,12 @@ const Project = () => {
       github_link: "https://github.com/Mani-Tyagi-1/Weather",
       live_link: "https://weather-tau-vert-29.vercel.app/",
     },
-    
-
+    {
+      img: project5,
+      name: "Imaginify",
+      github_link: "https://github.com/Mani-Tyagi-1/Imaginify",
+      live_link: "https://imaginify-nu-two.vercel.app/",
+    },
   ];
   return (
     <section id="projects" className="py-10 text-white">

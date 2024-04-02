@@ -45,13 +45,16 @@ function Hero() {
               Hello!
               <br />
             </span>
-            My Name is <span className='text-shadow-white'>Mani Tyagi</span>
+            My Name is{" "}
+            <span className="drop-shadow-white  text-[4rem] animate-text bg-gradient-to-r from-blue-800 via-purple-500 to-blue-800 bg-clip-text text-transparent font-black">
+              Mani Tyagi
+            </span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             I'm a <span className="text-cyan-300"> {text} </span>
             <Cursor />
           </h4>
-          <button className="btn-primary mt-8">Contact Me</button>
+          <button className="btn-primary mt-8 hover:bg-blue-800 hover:text-[17px]">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon) => (
               <div
