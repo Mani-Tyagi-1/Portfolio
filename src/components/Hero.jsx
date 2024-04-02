@@ -46,7 +46,7 @@ function Hero() {
               <br />
             </span>
             My Name is{" "}
-            <span className="drop-shadow-white  text-[4rem] animate-text bg-gradient-to-r from-blue-800 via-purple-500 to-blue-800 bg-clip-text text-transparent font-black">
+            <span className="drop-shadow-white animate-text bg-gradient-to-r from-blue-800 via-purple-500 to-blue-800 bg-clip-text text-transparent font-black">
               Mani Tyagi
             </span>
           </h1>
