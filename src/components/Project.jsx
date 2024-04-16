@@ -42,7 +42,7 @@ const Project = () => {
       img: project5,
       name: "Imaginify",
       github_link: "https://github.com/Mani-Tyagi-1/Imaginify",
-      live_link: "https://imaginify-nu-two.vercel.app/",
+      live_link: "https://imaginify-chi-two.vercel.app/",
     },
   ];
   return (

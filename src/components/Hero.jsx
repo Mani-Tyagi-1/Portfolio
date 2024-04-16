@@ -17,12 +17,11 @@ function Hero() {
   ];
 
   const [text] = useTypewriter({
-    words: ["Developer", 'Programmer','AI Enthusiast'],
-    loop:{},
+    words: ["Developer", "Programmer", "AI Enthusiast", "Astrophile"],
+    loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
-    
-  })
+  });
   return (
     <section
       id="home"
