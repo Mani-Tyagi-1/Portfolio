@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from '../assets/images/Profile.png'
+import Contact from './Contact';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 
@@ -40,8 +41,13 @@ function Hero() {
       <div className="flex-1 ">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
-            <span className="text-cyan-600 md:text-6xl text-5xl">
-              Hello!
+            <span className="text-cyan-600 md:text-6xl text-5xl flex">
+              Hello{" "}
+              <img
+                src="https://pritambose.netlify.app/assets/hand-BPcvzMY2.png"
+                width={"60px"}
+                className="ml-3"
+              />
               <br />
             </span>
             My Name is{" "}
@@ -53,7 +59,12 @@ function Hero() {
             I'm a <span className="text-cyan-300"> {text} </span>
             <Cursor />
           </h4>
-          <button className="btn-primary mt-8 hover:bg-blue-800 hover:text-[17px]">Contact Me</button>
+          <a
+            href='#contact'
+            className="btn-primary w-fit mt-8 hover:bg-blue-800 hover:text-[16px]"
+          >
+            Contact Me
+          </a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon) => (
               <div

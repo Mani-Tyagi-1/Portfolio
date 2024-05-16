@@ -1,50 +1,14 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/guessTheNum.png";
-import project2 from "../assets/images/AgeCalc.png";
-import project3 from "../assets/images/todo.png";
-import project4 from "../assets/images/weather.png";
-import project5 from "../assets/images/imaginify.png";
-import project_person from "../assets/images/Project.png";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import imaginify from "../assets/images/imaginify.png";
+import ecom from "../assets/images/Ecom.png";
+import portfolio from "../assets/images/portfolio.png";
 
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import project_person from "../assets/images/Project.png";
+
+
+
 
 const Project = () => {
-  const projects = [
-    {
-      img: project1,
-      name: "Guess The Number",
-      github_link: "https://github.com/Mani-Tyagi-1/GuessTheNum",
-      live_link: "guess-the-num-gray.vercel.app",
-    },
-    {
-      img: project2,
-      name: "Age Calculator",
-      github_link: "https://github.com/Mani-Tyagi-1/AgeCalculator",
-      live_link: "https://age-calculator-steel-nine.vercel.app/",
-    },
-    {
-      img: project3,
-      name: "ToDo",
-      github_link: "https://github.com/Mani-Tyagi-1/TodosContext",
-      live_link: "https://todos-context1.vercel.app/",
-    },
-    {
-      img: project4,
-      name: "Weather App",
-      github_link: "https://github.com/Mani-Tyagi-1/Weather",
-      live_link: "https://weather-tau-vert-29.vercel.app/",
-    },
-    {
-      img: project5,
-      name: "Imaginify",
-      github_link: "https://github.com/Mani-Tyagi-1/Imaginify",
-      live_link: "https://imaginify-chi-two.vercel.app/",
-    },
-  ];
   return (
     <section id="projects" className="py-10 text-white">
       <div className="text-center">
@@ -54,63 +18,113 @@ const Project = () => {
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />
-      <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className="lg:w-2/3 w-full">
-          <Swiper
-            slidesPerview={1.2}
-            spaceBetween={20}
-            breakpoints={{
-              768: {
-                slidesPerView: 2,
-              },
-            }}
-            loop={true}
-            autoplay={{
-              delay: 3000,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-          >
-            {projects.map((project_info, i) => (
-              <SwiperSlide key={i}>
-                <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img
-                    src={project_info.img}
-                    alt=""
-                    className="rounded-lg w-full h-[12rem]"
-                  />
-                  <h3 className="text-xl my-4">{project_info.name}</h3>
-                  <div className="flex gap-3">
-                    <a
-                      href={project_info.github_link}
-                      target="_blank"
-                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block rounded-full"
-                    >
-                      Github
-                    </a>
-                    <a
-                      href={project_info.live_link}
-                      target="_blank"
-                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block rounded-full"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+
+      <div className="flex max-w-7xl gap-6 px-5 mx-auto my-4 items-center relative">
+        <div class="w-[310px] h-[400px] border-none outline-none  rounded-lg bg-gray-700 dark:bg-blackLighter p-1 hover:scale-[1.03] transition-all ">
+          <img
+            src={portfolio}
+            alt="Projects"
+            width={450}
+            className="rounded-lg"
+          />
+
+          <div className="p-5">
+            <h2 className="text-[22px] font-semibold  ">Portfolio</h2>
+            <p className="py-3 text-slate-400 text-[14px]  w-full h-[130px]">
+              A simple portfolio website that showcases my skills and projects.
+              Built in Reactjs and Tailwind css is use to design the project.
+            </p>
+
+            <div className="mt-2">
+              <a
+                href="https://github.com/Mani-Tyagi-1/Portfolio"
+                target="_blank"
+                className="bg-cyan-600  shadow-sm hover:font-bold  hover:shadow-white px-4 py-2 rounded-lg "
+              >
+                Code
+              </a>
+              <a
+                href="https://manityagi.netlify.app/"
+                target="_blank"
+                className="bg-cyan-600 shadow-sm hover:font-bold  hover:shadow-white  px-4 py-2 rounded-lg mx-2"
+              >
+                Demo{" "}
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="lg:block hidden">
-          <img src={project_person} alt="Projects" />
+
+        <div class="w-[310px] h-[400px] border-none outline-none rounded-lg bg-gray-700 dark:bg-blackLighter p-1 hover:scale-[1.03] transition-all ">
+          <img
+            src={imaginify}
+            alt="Projects"
+            width={450}
+            className="rounded-lg"
+          />
+
+          <div className="p-5">
+            <h2 className="text-[22px] font-semibold  ">Imaginify</h2>
+            <p className="py-3 text-slate-400 text-[14px]  w-full h-[130px]">
+              Imaginify allows users to edit the uploaded images with the help
+              of AI. It provide remove background, object recolor etc features
+              to users
+            </p>
+
+            <div className="mt-2">
+              <a
+                href="https://github.com/Mani-Tyagi-1/Imaginify"
+                target="_blank"
+                className="bg-cyan-600 shadow-sm hover:font-bold  hover:shadow-white  px-4 py-2 rounded-lg "
+              >
+                Code
+              </a>
+              <a
+                href="https://imaginify-chi-two.vercel.app/"
+                target="_blank"
+                className="bg-cyan-600 shadow-sm hover:font-bold  hover:shadow-white  px-4 py-2 rounded-lg mx-2"
+              >
+                Demo{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[310px] h-[400px] border-none outline-none rounded-lg bg-gray-700 dark:bg-blackLighter p-1 hover:scale-[1.03] transition-all ">
+          <img src={ecom} alt="Projects" width={450} className="rounded-lg" />
+
+          <div className="p-5">
+            <h2 className="text-[22px] font-semibold  ">Ecommerce</h2>
+            <p className="py-3 text-slate-400 text-[14px]  w-full h-[130px]">
+              A fully responsive Ecommerce website made using Reactjs, Tailwind
+              and Firebase. It had features like, dark mode, authentication,
+              etc.
+            </p>
+
+            <div className="mt-2">
+              <a
+                href="https://github.com/Mani-Tyagi-1/ECommerce"
+                target="_blank"
+                className="bg-cyan-600 shadow-sm hover:font-bold  hover:shadow-white  px-4 py-2 rounded-lg "
+              >
+                Code
+              </a>
+              <a
+                href="https://e-commerce-eight-ruddy.vercel.app/"
+                target="_blank"
+                className="bg-cyan-600 shadow-sm hover:font-bold  hover:shadow-white  px-4 py-2 rounded-lg mx-2"
+              >
+                Demo{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src={project_person} alt="Projects" width={450} />
         </div>
       </div>
     </section>
-  );
+  ); 
 };
 
 export default Project;
