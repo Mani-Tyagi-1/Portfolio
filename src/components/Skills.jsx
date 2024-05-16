@@ -28,7 +28,7 @@ function Skills() {
   ];
   return (
     <section id="skills" className="py-10 bg-gray-800 relative ">
-      <div className="mt-8 text-gray-100 text-center ">
+      <div className="mt-8 mb-8 text-gray-100 text-center ">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
         </h3>

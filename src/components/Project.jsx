@@ -11,7 +11,7 @@ import project_person from "../assets/images/Project.png";
 const Project = () => {
   return (
     <section id="projects" className="py-10 text-white">
-      <div className="text-center">
+      <div className="text-center mt-10">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Projects</span>
         </h3>
@@ -123,6 +123,19 @@ const Project = () => {
           <img src={project_person} alt="Projects" width={450} />
         </div>
       </div>
+
+      <div className="flex mx-36 mt-10">
+        <p className="text-[13px] text-slate-400">
+          Checkout my <span className="text-cyan-600">Github</span> for more projects
+        </p>{" "}
+        <a
+          href="https://github.com/Mani-Tyagi-1"
+          className="mx-2 text-[13px] text-blue-600 underline"
+        >
+          here
+        </a>
+      </div>
+
     </section>
   ); 
 };
